@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<title>Control Panel of Robot</title>
+<marquee><h1>Control Panel of Robot</h1>
+<p style="color:white;">Click on the buttons to give me a move</p></marquee>
+
+<style>
+body {
+      background-image: url('https://i.pcmag.com/imagery/articles/04Ft9xGh1GJAIDNDgdHIkSw-4.fit_scale.size_2698x1517.v1572486304.jpg');
+      background-repeat: no-repeate;
+      background-attachment: fixed;
+      background-size: cover;
+
+}
+
+button{
+position: absolute;
+cursor: pointer;  
+ 
+}
+
+
+button:hover {
+  background-color: RoyalBlue;
+  
+}
+
+</style>
+</head>
+
+<body>
+
+<button style="width: 150px; height: 50px; border-radius: 20px;
+ left: 880px; top: 450px">Left</button>
+<button style="width: 150px; height: 50px; border-radius: 20px;
+ left: 1220px; top: 450px">Right</button>
+<button style="width: 150px; height: 50px; border-radius: 20px;
+ left: 1050px; top: 330px">Forward</button>
+<button style="width: 150px; height: 50px; border-radius: 20px;
+ left: 1050px; top: 570px">Backward</button>
+<button style="color:white; background-color: red; width: 100px; height: 100px; border-radius: 50%;
+ left: 1075px; top: 430px">STOP</button>
+
+</body>
+</html>
